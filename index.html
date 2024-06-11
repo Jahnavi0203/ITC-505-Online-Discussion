@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Ticket Booking</h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Payment History</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="event">
+            <div class="event-container">
+                <h2>Select Event</h2>
+                <div class="card">9:00 am to 12:00 pm <a href="#">available-movies    3</a></div>
+                <div class="card">1:00 pm to 4:00 pm <a href="#">available-movies     2</a></div>
+                <div class="card">5:00 pm to 8:00 pm <a href="#">available-movies     4</a></div>
+                <div class="card">9:00 pm to 12:00 am <a href="#">available-movies     4</a></div>
+                <div class="card">1:00 am to 4:00 am <a href="#">available-movies     1</a></div>
+            </div>
+        </section>
+        <section class="movies">
+            <h2>Popular Movies</h2>
+            <div class="movie-container">
+                <div class="movie-card">
+                    <img src="movie1.jfif" alt="Movie 1">
+                    <span>Movie 1</span>
+                </div>
+                <div class="movie-card">
+                    <img src="movie2.jfif" alt="Movie 2">
+                    <span>Movie 2</span>
+                </div>
+                  <div class="movie-card">
+                    <img src="movie3.jfif" alt="Movie 1">
+                    <span>Movie 3</span>
+                </div>
+                <div class="movie-card">
+                    <img src="movie4.jfif" alt="Movie 2">
+                    <span>Movie 4</span>
+                </div>
+               
+            </div>
+        </section>
+        <section class="booking">
+            <h2>Enter Your Information</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="event">Select the time:</label>
+                <select id="event" name="events" required>
+                    <option value="">Select</option>
+                    <option value="1">Event-1</option>
+                    <option value="2">Event-2</option>
+                    <option value="3">Event-3</option>
+                    <option value="4">Event-4</option>
+                    <option value="5">Event-5</option>
+                </select>
+                <label for="movies">Select the Movie:</label>
+                <select id="movies" name="movies" required>
+                    <option value="">Select</option>
+                    <option value="1">Movie-1</option>
+                    <option value="2">Movie-2</option>
+                    <option value="3">Movie-3</option>
+                    <option value="4">Movie-4</option>
+                </select>
+                <label for="tickets">Number of Tickets:</label>
+                <select id="tickets" name="tickets" required>
+                    <option value="">Select</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+                <button type="submit">Book Now</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Jahnavi's Ticket Booking&copy; </p>
+    </footer>
+</body>
+</html>
