@@ -6,7 +6,6 @@ const story = {
             { text: "Take the right path", consequence: "rightPath" }
         ],
         image: "images/start.jpg",
-        background: "images/start-background.jpg",
         width:"100%"
     },
     leftPath: {
@@ -16,7 +15,6 @@ const story = {
             { text: "Fight", consequence: "fight" }
         ],
         image: "images/leftPath.jpg",
-        background: "images/leftPath-background.jpg",
          width:"100%"
     },
     run: {
@@ -25,7 +23,6 @@ const story = {
             { text: "Start over", consequence: "start" }
         ],
         image: "images/run.jpg",
-        background: "images/run-background.jpg",
          width:"100%"
     },
     fight: {
@@ -34,7 +31,6 @@ const story = {
             { text: "Continue", consequence: "exploreFurther" }
         ],
         image: "images/fight.jpg",
-        background: "images/fight-background.jpg",
          width:"100%"
     },
     rightPath: {
@@ -44,7 +40,6 @@ const story = {
             { text: "Leave the chest", consequence: "leaveChest" }
         ],
         image: "images/rightPath.jpg",
-        background: "images/rightPath-background.jpg",
          width:"100%"
     },
     openChest: {
@@ -53,7 +48,6 @@ const story = {
             { text: "Explore further", consequence: "exploreFurther" }
         ],
         image: "images/openChest.jpg",
-        background: "images/openChest-background.jpg",
          width:"100%"
     },
     leaveChest: {
@@ -62,7 +56,6 @@ const story = {
             { text: "Explore further", consequence: "exploreFurther" }
         ],
         image: "images/leaveChest.jpg",
-        background: "images/leaveChest-background.jpg",
          width:"100%"
     },
     exploreFurther: {
@@ -72,7 +65,6 @@ const story = {
             { text: "Go around the castle", consequence: "goAroundCastle" }
         ],
         image: "images/exploreFurther.jpg",
-        background: "images/exploreFurther-background.jpg",
          width:"100%"
     },
     enterCastle: {
@@ -82,7 +74,6 @@ const story = {
             { text: "Quietly leave", consequence: "quietlyLeave" }
         ],
         image: "images/enterCastle.jpg",
-        background: "images/enterCastle-background.jpg",
          width:"100%"
     },
     goAroundCastle: {
@@ -92,7 +83,6 @@ const story = {
             { text: "Leave the plants", consequence: "leavePlants" }
         ],
         image: "images/goAroundCastle.jpg",
-        background: "images/goAroundCastle-background.jpg",
          width:"100%"
     },
     stealTreasure: {
@@ -101,7 +91,6 @@ const story = {
             { text: "Start over", consequence: "start" }
         ],
         image: "images/stealTreasure.jpg",
-        background: "images/stealTreasure-background.jpg"
     },
     quietlyLeave: {
         text: "You quietly leave the castle without disturbing the dragon.",
@@ -109,7 +98,6 @@ const story = {
             { text: "Continue", consequence: "newPath" }
         ],
         image: "images/quietlyLeave.jpg",
-        background: "images/quietlyLeave-background.jpg"
     },
     takePlants: {
         text: "The plants give you magical powers. What do you do?",
@@ -118,7 +106,6 @@ const story = {
             { text: "Keep moving", consequence: "keepMoving" }
         ],
         image: "images/takePlants.jpg",
-        background: "images/takePlants-background.jpg"
     },
     leavePlants: {
         text: "You decide to leave the plants and continue your journey.",
@@ -126,7 +113,6 @@ const story = {
             { text: "Continue", consequence: "newPath" }
         ],
         image: "images/leavePlants.jpg",
-        background: "images/leavePlants-background.jpg"
     },
     newPath: {
         text: "You find a hidden village. What do you do?",
@@ -135,7 +121,6 @@ const story = {
             { text: "Keep moving", consequence: "keepMoving" }
         ],
         image: "images/newPath.jpg",
-        background: "images/newPath-background.jpg"
     },
     usePowers: {
         text: "Using your new powers, you fly out of the forest and reach safety.",
@@ -143,7 +128,6 @@ const story = {
             { text: "Start over", consequence: "start" }
         ],
         image: "images/usePowers.jpg",
-        background: "images/usePowers-background.jpg"
     },
     exploreVillage: {
         text: "The villagers welcome you and you decide to stay.",
@@ -151,7 +135,6 @@ const story = {
             { text: "Start over", consequence: "start" }
         ],
         image: "images/exploreVillage.jpg",
-        background: "images/exploreVillage-background.jpg"
     },
     keepMoving: {
         text: "You find a way out of the forest and reach a sunny meadow.",
@@ -159,7 +142,6 @@ const story = {
             { text: "Start over", consequence: "start" }
         ],
         image: "images/keepMoving.jpg",
-        background: "images/keepMoving-background.jpg"
     }
 };
 
