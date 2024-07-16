@@ -14,7 +14,7 @@ const story = {
             { text: "Run", consequence: "run" },
             { text: "Fight", consequence: "fight" }
         ],
-        image: "images/leftPath.jpg",
+        image: "images/leftpath.jpg",
          width:"100%"
     },
     run: {
