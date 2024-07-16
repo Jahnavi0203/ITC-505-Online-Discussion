@@ -39,7 +39,7 @@ const story = {
             { text: "Open the chest", consequence: "openChest" },
             { text: "Leave the chest", consequence: "leaveChest" }
         ],
-        image: "images/rightPath.jpg",
+        image: "images/rightpath.jpg",
          width:"100%"
     },
     openChest: {
@@ -47,7 +47,7 @@ const story = {
         choices: [
             { text: "Explore further", consequence: "exploreFurther" }
         ],
-        image: "images/openChest.jpg",
+        image: "images/openchest.jpg",
          width:"100%"
     },
     leaveChest: {
@@ -55,7 +55,7 @@ const story = {
         choices: [
             { text: "Explore further", consequence: "exploreFurther" }
         ],
-        image: "images/leaveChest.jpg",
+        image: "images/leavechest.jpg",
          width:"100%"
     },
     exploreFurther: {
@@ -64,7 +64,7 @@ const story = {
             { text: "Enter the castle", consequence: "enterCastle" },
             { text: "Go around the castle", consequence: "goAroundCastle" }
         ],
-        image: "images/exploreFurther.jpg",
+        image: "images/explorefurther.jpg",
          width:"100%"
     },
     enterCastle: {
@@ -73,7 +73,7 @@ const story = {
             { text: "Steal the treasure", consequence: "stealTreasure" },
             { text: "Quietly leave", consequence: "quietlyLeave" }
         ],
-        image: "images/enterCastle.jpg",
+        image: "images/entercastle.jpg",
          width:"100%"
     },
     goAroundCastle: {
@@ -82,7 +82,7 @@ const story = {
             { text: "Take the plants", consequence: "takePlants" },
             { text: "Leave the plants", consequence: "leavePlants" }
         ],
-        image: "images/goAroundCastle.jpg",
+        image: "images/goaroundcastle.jpg",
          width:"100%"
     },
     stealTreasure: {
@@ -90,14 +90,14 @@ const story = {
         choices: [
             { text: "Start over", consequence: "start" }
         ],
-        image: "images/stealTreasure.jpg",
+        image: "images/stealtreasure.jpg",
     },
     quietlyLeave: {
         text: "You quietly leave the castle without disturbing the dragon.",
         choices: [
             { text: "Continue", consequence: "newPath" }
         ],
-        image: "images/quietlyLeave.jpg",
+        image: "images/quietlyleave.jpg",
     },
     takePlants: {
         text: "The plants give you magical powers. What do you do?",
@@ -105,14 +105,14 @@ const story = {
             { text: "Use powers", consequence: "usePowers" },
             { text: "Keep moving", consequence: "keepMoving" }
         ],
-        image: "images/takePlants.jpg",
+        image: "images/takeplants.jpg",
     },
     leavePlants: {
         text: "You decide to leave the plants and continue your journey.",
         choices: [
             { text: "Continue", consequence: "newPath" }
         ],
-        image: "images/leavePlants.jpg",
+        image: "images/leaveplants.jpg",
     },
     newPath: {
         text: "You find a hidden village. What do you do?",
@@ -120,28 +120,28 @@ const story = {
             { text: "Explore the village", consequence: "exploreVillage" },
             { text: "Keep moving", consequence: "keepMoving" }
         ],
-        image: "images/newPath.jpg",
+        image: "images/newpath.jpg",
     },
     usePowers: {
         text: "Using your new powers, you fly out of the forest and reach safety.",
         choices: [
             { text: "Start over", consequence: "start" }
         ],
-        image: "images/usePowers.jpg",
+        image: "images/usepowers.jpg",
     },
     exploreVillage: {
         text: "The villagers welcome you and you decide to stay.",
         choices: [
             { text: "Start over", consequence: "start" }
         ],
-        image: "images/exploreVillage.jpg",
+        image: "images/explorevillage.jpg",
     },
     keepMoving: {
         text: "You find a way out of the forest and reach a sunny meadow.",
         choices: [
             { text: "Start over", consequence: "start" }
         ],
-        image: "images/keepMoving.jpg",
+        image: "images/keepmoving.jpg",
     }
 };
 
